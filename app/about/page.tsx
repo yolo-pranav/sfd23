@@ -5,10 +5,10 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 const AboutPage = () => {
   return (
     <>
-      <Breadcrumb
+      {/* <Breadcrumb
         pageName="About Page"
         description="About the event."
-      />
+      /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
     </>
