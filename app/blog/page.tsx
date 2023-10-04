@@ -1,24 +1,24 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
+import SingleSpeakers from "@/components/Speakers/SingleSpeakers";
+import speakersData from "@/components/Speakers/speakersData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
-const Blog = () => {
+const Speakers = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
+        pageName="Speakers Grid"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
       />
 
       <section className="pt-[120px] pb-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
-            {blogData.map((blog) => (
+            {speakersData.map((speakers) => (
               <div
-                key={blog.id}
+                key={speakers.id}
                 className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
               >
-                <SingleBlog blog={blog} />
+                <SingleSpeakers speakers={speakers} />
               </div>
             ))}
           </div>
@@ -91,4 +91,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Speakers;
