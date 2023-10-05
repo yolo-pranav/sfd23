@@ -2,6 +2,6 @@ export type Menu = {
   id: number;
   title: string;
   path?: string;
-  newTab: boolean;
+  target?: '_self' | '_blank' | '_parent' | '_top';
   submenu?: Menu[];
 };

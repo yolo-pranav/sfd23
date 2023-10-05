@@ -117,7 +117,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      Highlights{" "}
                     </a>
                   </li>
                   <li>
@@ -126,7 +126,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Speakers{" "}
+                      Past Speakers{" "}
                     </a>
                   </li>
                   <li>
@@ -150,11 +150,11 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="#support"
+                      href="/contact"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Get Support{" "}
+                      Contact Us{" "}
                     </a>
                   </li>
                   <li>
