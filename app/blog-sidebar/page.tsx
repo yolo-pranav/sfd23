@@ -1,7 +1,7 @@
 import RelatedPost from "@/components/Speakers/RelatedPost";
 import SharePost from "@/components/Speakers/SharePost";
 import TagButton from "@/components/Speakers/TagButton";
-import NewsLatterBox from "@/components/Contact/NewsLatterBox";
+import MapBox from "@/components/Contact/mapbox";
 import Image from "next/image";
 
 const BlogSidebarPage = () => {
@@ -449,7 +449,7 @@ const BlogSidebarPage = () => {
                 </div>
               </div>
 
-              <NewsLatterBox />
+              <MapBox />
             </div>
           </div>
         </div>

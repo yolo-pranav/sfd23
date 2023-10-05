@@ -1,38 +1,15 @@
-const NewsLatterBox = () => {
+const Mapbox = () => {
   return (
     <div
-      className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
+      className="wow fadeInUp relative z-10 rounded-md bg-primary/[8%] p-8 dark:bg-primary/20  dark:bg-opacity-20 sm:p-11 lg:p-8 xl:p-11 h-full"
       data-wow-delay=".2s"
     >
-      <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-        Subscribe to receive future updates
+      <h3 className="mb-12 text-4xl font-bold leading-tight text-black dark:text-white">
+        <center>Location</center>
       </h3>
-      <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
-      </p>
-      <form>
-        <input
-          type="text"
-          name="name"
-          placeholder="Enter your name"
-          className="mb-4 w-full rounded-md border border-body-color border-opacity-10 py-3 px-6 text-base font-medium text-body-color placeholder-body-color outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter your email"
-          className="mb-4 w-full rounded-md border border-body-color border-opacity-10 py-3 px-6 text-base font-medium text-body-color placeholder-body-color outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50"
-        />
-        <input
-          type="submit"
-          value="Subscribe"
-          className="duration-80 mb-4 w-full cursor-pointer rounded-md border border-transparent bg-primary py-3 px-6 text-center text-base font-medium text-white outline-none transition ease-in-out hover:bg-opacity-80 hover:shadow-signUp focus-visible:shadow-none"
-        />
-        <p className="text-center text-base font-medium leading-relaxed text-body-color">
-          No spam guaranteed, So please don’t send any spam mail.
-        </p>
-      </form>
+      <div className="mr-3 mb-9 w-full">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.4577410239913!2d76.76135257530207!3d30.761729884231148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed8994bf1faf%3A0x6c6bcaf211d00778!2sGolden%20Jubilee%20Hall!5e0!3m2!1sen!2sin!4v1696481119948!5m2!1sen!2sin" width="345" height="365"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe></div>
+      
       <div className="absolute top-0 left-0 z-[-1]">
         <svg
           width="370"
@@ -172,4 +149,4 @@ const NewsLatterBox = () => {
   );
 };
 
-export default NewsLatterBox;
+export default Mapbox;
