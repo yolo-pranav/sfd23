@@ -16,11 +16,10 @@ const menuData: Menu[] = [
     title: "Contact",
     path: "/contact",
   },
-  // {
-  //   id: 4,
-  //   title: "Error Page",
-  //   path: "/error",
-  //   target: false,
-  // },
+  {
+    id: 4,
+    title: "Schedule",
+    path: "/schedule",
+  },
 ];
 export default menuData;
