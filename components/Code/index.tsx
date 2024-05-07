@@ -18,12 +18,9 @@ const Code = () => {
   return (
     <section id="code" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container w-full px-4">
-        <SectionTitle
-          title="Code of Conduct"
-          paragraph="Software Freedom Day is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, gender identity, disability, physical appearance, body size, race, or religion. We invite attendees to come to SFD in a spirit of curiosity, friendliness, open-mindedness, and respect. Any kind of harassment will not be tolerated."
-          width="100&"
-          mb="0px"
-        />
+        <p className="text-base !leading-relaxed text-body-color md:text-lg">
+          Software Freedom Day is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, gender identity, disability, physical appearance, body size, race, or religion. We invite attendees to come to SFD in a spirit of curiosity, friendliness, open-mindedness, and respect. Any kind of harassment will not be tolerated.<br />
+        </p>
         <p className="text-base !leading-relaxed text-body-color md:text-lg">
           <br />At the conference venue, you agree to:<br /><br />
         </p>

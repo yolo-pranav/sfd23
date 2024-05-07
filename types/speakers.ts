@@ -1,5 +1,3 @@
-
-
 export type Speakers = {
   id: number;
   title: string;
